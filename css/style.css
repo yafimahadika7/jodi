@@ -667,6 +667,13 @@ pre code {
   max-width: 100%;
 }
 
+.custom-img {
+  width: 400px;  /* Tentukan ukuran yang diinginkan */
+  height: 400px; /* Pastikan tinggi dan lebar sama agar menjadi bulat */
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+  border-radius: 50%; /* Membuat gambar bulat */
+}
+
 .row-cols-1 > * {
   flex: 0 0 100%;
   max-width: 100%;
